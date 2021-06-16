@@ -95,7 +95,7 @@ displayed if the 'eventbrite' field in the header is not set.
 <table class="table table-striped">
 <tr> <td>June 23, 2021, 1 pm - 4:30 pm</td>  <td><!-- Place the following link anywhere in your page. Make sure the id "s_lc_event_7627923" matches with the above code: jQuery("#s_lc_event_7627923")  //-->
 <a id = "s_lc_event_7732844" href="https://uark.libcal.com/calendar/Data/UNIX0623">Introduction to Unix Shell</a>
-<!-- Below is optional element styling  //-->
+<% comment %><!-- Below is optional element styling  //-->
   <style>
 #s_lc_event_7732844 {
   background: #2774AE;
@@ -110,6 +110,7 @@ displayed if the 'eventbrite' field in the header is not set.
   opacity: 0.9;
 }
 </style>
+  <% endcomment %>
   </td> </tr>
  
   </table>
