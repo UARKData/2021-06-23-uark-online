@@ -61,30 +61,12 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 <strong>The University of Arkansas' participation in the Carpentries is sponsored by the <a href= "https://libraries.uark.edu">University of Arkansas Libraries</a></strong>
 
 <h2>Register Now!</h2>
-<img src = "images/DARTNEW3.png">
-<p>Please select the class of your choice. </p>
+
+
 <div class="row">
 <div class="col-md-8">
   <table>
 <table class="table table-striped">
-<tr> <td>May 25, 1 pm - 4:30 pm</td>  <td><!-- Place the following link anywhere in your page. Make sure the id "s_lc_event_7627923" matches with the above code: jQuery("#s_lc_event_7627923")  //-->
-<a id = "s_lc_event_7732968" href="https://uark.libcal.com/calendar/Data/UnixDARTMay25">Introduction to Unix Shell </a>
-<!-- Below is optional element styling  //-->
-  <style>
-#s_lc_event_7732968 {
-  background: #2774AE;
-  border: 1px solid #2774AE;
-  border-radius: 4px;
-  color: #E7F5F3;
-  font: 14px Arial, Helvetica, Verdana;
-  padding: 8px 20px;
-  cursor: pointer;
-}
-#s_lc_event_7732968:hover {
-  opacity: 0.9;
-}
-</style>
-</td> </tr>
       <tr> <td>June 23, 1 pm - 4:30pm </td>  <td><!-- Place the following link anywhere in your page. Make sure the id "s_lc_event_7627930" matches with the above code: jQuery("#s_lc_event_7627930")  //-->
 <a id="s_lc_event_7732976" href="https://uark.libcal.com/calendar/Data/UnixDARTMay27">Introduction to Unix Shell </a>
 <!-- Below is optional element styling  //-->
@@ -103,25 +85,6 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 }
 </style>
 </td> </tr>
-       <tr> <td>June 1, 9 am - 12:30pm </td>  <td><!-- Place the following link anywhere in your page. Make sure the id "s_lc_event_7627930" matches with the above code: jQuery("#s_lc_event_7627930")  //-->
-<a id="s_lc_event_7732984" https:"//uark.libcal.com/calendar/Data/UNIX0623">Introduction to Unix Shell </a>
-<!-- Below is optional element styling  //-->
-<style>
-#s_lc_event_7732984 {
-  background: #2774AE;
-  border: 1px solid #2774AE;
-  border-radius: 4px;
-  color: #F7F2F2;
-  font: 14px Arial, Helvetica, Verdana;
-  padding: 8px 20px;
-  cursor: pointer;
-}
-#s_lc_event_7732984:hover {
-  opacity: 0.9;
-}
-</style>
-</td> </tr>
- 
   </table>
 
 
