@@ -393,7 +393,7 @@ how one of these schedule tables is constructed.
 {% endif %}
 
 <hr/>
-
+  <% endcomment %>
 
 {% comment %}
 SETUP
