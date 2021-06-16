@@ -32,12 +32,6 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 {% endcomment %}
 
 
-{% comment %}
-8< ============= For a workshop delete from here =============
-
-
-8< ============================= until here ==================
-{% endcomment %}
 
 
 {% comment %}
@@ -45,9 +39,9 @@ Check DC curriculum
 {% endcomment %}
 
 {% if site.carpentry == "dc" %}
-{% unless site.curriculum == "dc-astronomy" or site.curriculum == "dc-ecology" or site.curriculum == "dc-genomics" or site.curriculum == "dc-socsci" or site.curriculum == "dc-geospatial" %}
+{% unless site.curriculum == "dc-ecology" or site.curriculum == "dc-genomics" or site.curriculum == "dc-socsci" or site.curriculum == "dc-geospatial" %}
 <div class="alert alert-warning">
-It looks like you are setting up a website for a Data Carpentry curriculum but you haven't specified the curriculum type in the <code>_config.yml</code> file (current value in <code>_config.yml</code>: "<strong>{{ site.curriculum }}</strong>", possible values: <code>dc-astronomy</code>, <code>dc-ecology</code>, <code>dc-genomics</code>, <code>dc-socsci</code>, or <code>dc-geospatial</code>). After editing this file, you need to run <code>make serve</code> again to see the changes reflected.
+It looks like you are setting up a website for a Data Carpentry curriculum but you haven't specified the curriculum type in the <code>_config.yml</code> file (current value in <code>_config.yml</code>: "<strong>{{ site.curriculum }}</strong>", possible values: <code>dc-ecology</code>, <code>dc-genomics</code>, <code>dc-socsci</code>, or <code>dc-geospatial</code>). After editing this file, you need to run <code>make serve</code> again to see the changes reflected.
 </div>
 {% endunless %}
 {% endif %}
@@ -63,6 +57,73 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 </div>
 {% endunless %}
 {% endif %}
+
+<strong>The University of Arkansas' participation in the Carpentries is sponsored by the <a href= "https://libraries.uark.edu">University of Arkansas Libraries</a></strong>
+
+<h2>Register Now!</h2>
+<img src = "images/DARTNEW3.png">
+<p>Please select the class of your choice. </p>
+<div class="row">
+<div class="col-md-8">
+  <table>
+<table class="table table-striped">
+<tr> <td>May 25, 1 pm - 4:30 pm</td>  <td><!-- Place the following link anywhere in your page. Make sure the id "s_lc_event_7627923" matches with the above code: jQuery("#s_lc_event_7627923")  //-->
+<a id = "s_lc_event_7732968" href="https://uark.libcal.com/calendar/Data/UnixDARTMay25">Introduction to Unix Shell </a>
+<!-- Below is optional element styling  //-->
+  <style>
+#s_lc_event_7732968 {
+  background: #2774AE;
+  border: 1px solid #2774AE;
+  border-radius: 4px;
+  color: #E7F5F3;
+  font: 14px Arial, Helvetica, Verdana;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+#s_lc_event_7732968:hover {
+  opacity: 0.9;
+}
+</style>
+</td> </tr>
+      <tr> <td>June 23, 1 pm - 4:30pm </td>  <td><!-- Place the following link anywhere in your page. Make sure the id "s_lc_event_7627930" matches with the above code: jQuery("#s_lc_event_7627930")  //-->
+<a id="s_lc_event_7732976" href="https://uark.libcal.com/calendar/Data/UnixDARTMay27">Introduction to Unix Shell </a>
+<!-- Below is optional element styling  //-->
+<style>
+#s_lc_event_7732976 {
+  background: #2774AE;
+  border: 1px solid #2774AE;
+  border-radius: 4px;
+  color: #F7F2F2;
+  font: 14px Arial, Helvetica, Verdana;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+#s_lc_event_7732976:hover {
+  opacity: 0.9;
+}
+</style>
+</td> </tr>
+       <tr> <td>June 1, 9 am - 12:30pm </td>  <td><!-- Place the following link anywhere in your page. Make sure the id "s_lc_event_7627930" matches with the above code: jQuery("#s_lc_event_7627930")  //-->
+<a id="s_lc_event_7732984" https:"//uark.libcal.com/calendar/Data/UNIX0623">Introduction to Unix Shell </a>
+<!-- Below is optional element styling  //-->
+<style>
+#s_lc_event_7732984 {
+  background: #2774AE;
+  border: 1px solid #2774AE;
+  border-radius: 4px;
+  color: #F7F2F2;
+  font: 14px Arial, Helvetica, Verdana;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+#s_lc_event_7732984:hover {
+  opacity: 0.9;
+}
+</style>
+</td> </tr>
+ 
+  </table>
+
 
 {% comment %}
 EVENTBRITE
@@ -84,39 +145,6 @@ displayed if the 'eventbrite' field in the header is not set.
 </iframe>
 {% endif %}
 
-<strong>The University of Arkansas' participation in the Carpentries is sponsored by the <a href= "https://libraries.uark.edu">University of Arkansas Libraries</a></strong>
-
-<h2>Register Now!</h2>
-<p>Please sign up for your class. </p>
-
-<div class="row">
-<div class="col-md-8">
-  <table>
-<table class="table table-striped">
-<tr> <td>June 23, 2021, 1 pm - 4:30 pm</td>  <td><!-- Place the following link anywhere in your page. Make sure the id "s_lc_event_7627923" matches with the above code: jQuery("#s_lc_event_7627923")  //-->
-<a id = "s_lc_event_7732844" href="https://uark.libcal.com/calendar/Data/UNIX0623">Introduction to Unix Shell</a>
-<% comment %><!-- Below is optional element styling  //-->
-  <style>
-#s_lc_event_7732844 {
-  background: #2774AE;
-  border: 1px solid #2774AE;
-  border-radius: 4px;
-  color: #E7F5F3;
-  font: 14px Arial, Helvetica, Verdana;
-  padding: 8px 20px;
-  cursor: pointer;
-}
-#s_lc_event_7732844:hover {
-  opacity: 0.9;
-}
-</style>
-  <% endcomment %>
-  </td> </tr>
- 
-  </table>
- 
-
-    
 
 <h2 id="general">General Information</h2>
 
@@ -183,11 +211,13 @@ address.
 {% elsif online == "true_private" %}
 <p id="where">
   <strong>Where:</strong> This training will take place online.
-  The instructors will provide you with the information with your registration confirmation.
+  Connection information will be sent with your Registration Confirmation.
 </p>
 {% endif %}
 
+<p><strong> Date:</strong>  May 25, 27 or June 1</p>
 
+{% comment %}
 SPECIAL REQUIREMENTS
 
 Modify the block below if there are any special requirements.
@@ -283,7 +313,7 @@ Edit the text to match who can attend the workshop. For instance:
 {% endcomment %}
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This workshop is open to members of the University of Arkansas family and friend.
+    This workshop is open to members of participating DART institions.
 </p>
 
 
@@ -318,7 +348,7 @@ e.g., '2015-06-10-esu'.
 
 Note we also have a CodiMD (the open-source version of HackMD)
 available at https://codimd.carpentries.org
-
+{% endcomment %}
 {% if page.collaborative_notes %}
 <h2 id="collaborative_notes">Collaborative Notes</h2>
 
@@ -327,7 +357,7 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 </p>
 <hr/>
 {% endif %}
-{% endcomment %}
+
 
 {% comment %}
 SURVEYS - DO NOT EDIT SURVEY LINKS
@@ -394,7 +424,7 @@ how one of these schedule tables is constructed.
 {% endif %}
 
 <hr/>
-  <% endcomment %>
+{% endcomment %}
 
 {% comment %}
 SETUP
