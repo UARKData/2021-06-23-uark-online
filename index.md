@@ -88,6 +88,7 @@ displayed if the 'eventbrite' field in the header is not set.
 
 <h2>Register Now!</h2>
 <p>Please sign up for your class. </p>
+
 <div class="row">
 <div class="col-md-8">
   <table>
@@ -185,20 +186,7 @@ address.
 </p>
 {% endif %}
 
-{% comment %}
-DATE
 
-This block displays the date and links to Google Calendar.
-{% endcomment %}
-{% if page.humandate %}
-<p id="when">
-  <strong>When:</strong>
-  {{page.humandate}}.
-  {% include workshop_calendar.html %}
-</p>
-{% endif %}
-
-{% comment %}
 SPECIAL REQUIREMENTS
 
 Modify the block below if there are any special requirements.
