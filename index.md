@@ -109,8 +109,12 @@ displayed if the 'eventbrite' field in the header is not set.
   opacity: 0.9;
 }
 </style>
-    </table>
+  </td> </tr>
+ 
+  </table>
+ 
 
+    
 
 <h2 id="general">General Information</h2>
 
